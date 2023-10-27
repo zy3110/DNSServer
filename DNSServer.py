@@ -64,7 +64,6 @@ dns_records = {
         dns.rdatatype.CNAME: 'www.example.com.',
         dns.rdatatype.NS: 'ns.example.com.',
         dns.rdatatype.TXT: ('This is a TXT record',),
-        dns.rdatatype.MX: [(10, 'mail.example.com.')],
         dns.rdatatype.SOA: (
             'ns1.example.com.', #mname
             'admin.example.com.', #rname
